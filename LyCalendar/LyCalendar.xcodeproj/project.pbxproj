@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31AB1F35BEA48C5A2D760537 /* libPods-LyCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A013012A7C18B561B60814EA /* libPods-LyCalendar.a */; };
+		CE20684F20514BD300A08F84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20684E20514BD300A08F84 /* AppDelegate.m */; };
+		CE20685220514BD300A08F84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20685120514BD300A08F84 /* ViewController.m */; };
+		CE20685520514BD300A08F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20685320514BD300A08F84 /* Main.storyboard */; };
+		CE20685720514BD300A08F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20685620514BD300A08F84 /* Assets.xcassets */; };
+		CE20685A20514BD300A08F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20685820514BD300A08F84 /* LaunchScreen.storyboard */; };
+		CE20685D20514BD300A08F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20685C20514BD300A08F84 /* main.m */; };
+		CE20686620514EB000A08F84 /* LyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20686520514EB000A08F84 /* LyCalendar.m */; };
+		CE4395302051A3F200BF2B0A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43952F2051A3F100BF2B0A /* UIColor+Hex.m */; };
+		CE4395332051AB0100BF2B0A /* LyCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4395312051AB0100BF2B0A /* LyCalendarCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F3BDF3E6707C3ED5103918 /* Pods-LyCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyCalendar/Pods-LyCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		A013012A7C18B561B60814EA /* libPods-LyCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LyCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE20684A20514BD300A08F84 /* LyCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE20684D20514BD300A08F84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE20684E20514BD300A08F84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE20685020514BD300A08F84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE20685120514BD300A08F84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE20685420514BD300A08F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE20685620514BD300A08F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE20685920514BD300A08F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE20685B20514BD300A08F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE20685C20514BD300A08F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE20686420514EB000A08F84 /* LyCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyCalendar.h; sourceTree = "<group>"; };
+		CE20686520514EB000A08F84 /* LyCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyCalendar.m; sourceTree = "<group>"; };
+		CE43952E2051A3F100BF2B0A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		CE43952F2051A3F100BF2B0A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		CE4395312051AB0100BF2B0A /* LyCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyCalendarCell.m; sourceTree = "<group>"; };
+		CE4395322051AB0100BF2B0A /* LyCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyCalendarCell.h; sourceTree = "<group>"; };
+		ECCBD4730448B551A53EF163 /* Pods-LyCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyCalendar/Pods-LyCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE20684720514BD300A08F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB1F35BEA48C5A2D760537 /* libPods-LyCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDBA66BD6591520B9457BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A013012A7C18B561B60814EA /* libPods-LyCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8222A0CBA98B1114F41DB343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECCBD4730448B551A53EF163 /* Pods-LyCalendar.debug.xcconfig */,
+				01F3BDF3E6707C3ED5103918 /* Pods-LyCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE20684120514BD300A08F84 = {
+			isa = PBXGroup;
+			children = (
+				CE20684C20514BD300A08F84 /* LyCalendar */,
+				CE20684B20514BD300A08F84 /* Products */,
+				8222A0CBA98B1114F41DB343 /* Pods */,
+				1DDBA66BD6591520B9457BFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE20684B20514BD300A08F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE20684A20514BD300A08F84 /* LyCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE20684C20514BD300A08F84 /* LyCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				CE20686320514E7C00A08F84 /* Calendar */,
+				CE20684D20514BD300A08F84 /* AppDelegate.h */,
+				CE20684E20514BD300A08F84 /* AppDelegate.m */,
+				CE20685020514BD300A08F84 /* ViewController.h */,
+				CE20685120514BD300A08F84 /* ViewController.m */,
+				CE20685320514BD300A08F84 /* Main.storyboard */,
+				CE20685620514BD300A08F84 /* Assets.xcassets */,
+				CE20685820514BD300A08F84 /* LaunchScreen.storyboard */,
+				CE20685B20514BD300A08F84 /* Info.plist */,
+				CE20685C20514BD300A08F84 /* main.m */,
+			);
+			path = LyCalendar;
+			sourceTree = "<group>";
+		};
+		CE20686320514E7C00A08F84 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CE4395322051AB0100BF2B0A /* LyCalendarCell.h */,
+				CE4395312051AB0100BF2B0A /* LyCalendarCell.m */,
+				CE43952E2051A3F100BF2B0A /* UIColor+Hex.h */,
+				CE43952F2051A3F100BF2B0A /* UIColor+Hex.m */,
+				CE20686420514EB000A08F84 /* LyCalendar.h */,
+				CE20686520514EB000A08F84 /* LyCalendar.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE20684920514BD300A08F84 /* LyCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE20686020514BD300A08F84 /* Build configuration list for PBXNativeTarget "LyCalendar" */;
+			buildPhases = (
+				9C8D970D97B5A8E80D48AE1B /* [CP] Check Pods Manifest.lock */,
+				CE20684620514BD300A08F84 /* Sources */,
+				CE20684720514BD300A08F84 /* Frameworks */,
+				CE20684820514BD300A08F84 /* Resources */,
+				76E3D7573E6FA5F28CBD803F /* [CP] Embed Pods Frameworks */,
+				C5D88963236115208FBB1BF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyCalendar;
+			productName = LyCalendar;
+			productReference = CE20684A20514BD300A08F84 /* LyCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE20684220514BD300A08F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ly;
+				TargetAttributes = {
+					CE20684920514BD300A08F84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE20684520514BD300A08F84 /* Build configuration list for PBXProject "LyCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE20684120514BD300A08F84;
+			productRefGroup = CE20684B20514BD300A08F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE20684920514BD300A08F84 /* LyCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE20684820514BD300A08F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE20685A20514BD300A08F84 /* LaunchScreen.storyboard in Resources */,
+				CE20685720514BD300A08F84 /* Assets.xcassets in Resources */,
+				CE20685520514BD300A08F84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76E3D7573E6FA5F28CBD803F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyCalendar/Pods-LyCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8D970D97B5A8E80D48AE1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D88963236115208FBB1BF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyCalendar/Pods-LyCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE20684620514BD300A08F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4395332051AB0100BF2B0A /* LyCalendarCell.m in Sources */,
+				CE20685220514BD300A08F84 /* ViewController.m in Sources */,
+				CE4395302051A3F200BF2B0A /* UIColor+Hex.m in Sources */,
+				CE20685D20514BD300A08F84 /* main.m in Sources */,
+				CE20686620514EB000A08F84 /* LyCalendar.m in Sources */,
+				CE20684F20514BD300A08F84 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE20685320514BD300A08F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE20685420514BD300A08F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE20685820514BD300A08F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE20685920514BD300A08F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE20685E20514BD300A08F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE20685F20514BD300A08F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE20686120514BD300A08F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCBD4730448B551A53EF163 /* Pods-LyCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LyCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ly.LyCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE20686220514BD300A08F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F3BDF3E6707C3ED5103918 /* Pods-LyCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LyCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ly.LyCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE20684520514BD300A08F84 /* Build configuration list for PBXProject "LyCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE20685E20514BD300A08F84 /* Debug */,
+				CE20685F20514BD300A08F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE20686020514BD300A08F84 /* Build configuration list for PBXNativeTarget "LyCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE20686120514BD300A08F84 /* Debug */,
+				CE20686220514BD300A08F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE20684220514BD300A08F84 /* Project object */;
+}
